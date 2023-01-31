@@ -119,6 +119,12 @@ button{
 button img {
     margin-right: 11.61px;
 }
+
+button:hover{
+    cursor:pointer;
+    background-color: #224a3c;
+}
+
 footer{
     font-size: 15px;
     text-align: center;
