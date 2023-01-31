@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+:root{
+    --cor-creme: #f2ebe3;
+    --cor-azul-escuro: #1c232b;
+    --cor-branco: #ffffff;
+    --cor-ciano-escuro: #3c8067;
+    --cor-cinza-azulado: #6c7289;
+
+    --fonte-1: 'Montserrat', sans-serif;
+    --fonte-2: 'Anton', sans-serif;
+    --fonte-valor: 'Merriweather', serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--cor-creme);
+}
+main{
+    background-color: var(--cor-branco);
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    margin: 7% auto;
+    border-radius: 12px;
+}
+.perfume {
+    width: 300px;
+    height: 450px;
+    background-image: url(images/image-product-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px 0px 0px 12px;
+}
+.descricao {
+    width: 300px;
+    height: 450px;
+}
+p {
+    font-family: var(--fonte-1);
+    font-size: 14px;
+}
+
+.texto-descricao h3 {
+    color: var(--cor-cinza-azulado);
+    font-family: var(--fonte-2);
+    font-size: 0.8em;
+    font-weight: 500;
+    padding: 17px;
+    text-align: justify;
+}
+.texto-descricao h1 {
+    font-size: 43px;
+    padding-left: 17px;
+    padding-bottom: 17px;
+    line-height: 35px;
+}
+.texto-descricao p {
+    font-size: 17px;
+    padding: 17px;
+    padding-top: 0%;
+    font-family: var(--fonte-2);
+    color: var(--cor-cinza-azulado);
+}
+.texto-descricao {
+    line-height: 25px;
+}
+.valor{
+    display: flex;
+    gap: 19px;
+    align-items: center;
+}
+.promocao {
+    font-size: 42px;
+    line-height: 32px;
+    font-weight: 500;
+    color: var(--cor-ciano-escuro);
+    font-family: var(--fonte-valor);
+    font-weight: bolder;
+    margin-left: 17px;
+}
+.ogvalue {
+    font-size: 13px;
+    text-decoration: line-through;
+    color: #6c7289;
+    font-family: var(--fonte-valor);
+    line-height: 23px;
+}
+button{
+
+    width: 236px;
+    height: 48px;
+    justify-content: center;
+
+    background-color: var(--cor-ciano-escuro);
+    border: none;
+    color: var(--cor-branco);
+
+    border-radius: 12px;
+    font-size: 14px;
+
+    margin-top: 30px;
+    margin-left: 17px;
+}
+button img {
+    margin-right: 11.61px;
+}
+footer{
+    font-size: 15px;
+    text-align: center;
+    font-family: var(--fonte-2);
+}
+footer a {
+    text-decoration: none;
+    color: var(--cor-ciano-escuro);
+    font-weight: bold;
+}
