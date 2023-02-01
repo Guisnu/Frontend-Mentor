@@ -30,6 +30,22 @@ body {
     background-color: var(--cor-creme);
 }
 
+header {
+    font-size: 15px;
+    text-align: center;
+    font-family: var(--fonte-1);
+}
+header a {
+    text-decoration: none;
+    color: var(--cor-ciano-escuro);
+    font-weight: bold;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #254e3f;
+}
+
 main{
     display: flex;
     max-width: 350px;
@@ -119,3 +135,4 @@ button:hover {
     background-color: #254e3f;
     cursor: pointer;
 }
+
